@@ -52,7 +52,8 @@
             <li class="aaa nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                    aria-expanded="false">
-                    <span id="boot-icon" class="bi bi-person-circle" style="font-size: 28px; color: rgb(255, 255, 255);"></span>
+                    <span id="boot-icon" class="bi bi-person-circle"
+                          style="font-size: 28px; color: rgb(255, 255, 255);"></span>
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="login.html">Login</a></li>
@@ -62,8 +63,11 @@
         </div>
     </div>
 </nav>
-<canvas id="nOfIrrigations" style="width:100%;max-width:600px"></canvas>
-<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+<div class="graphs">
+    <canvas class="graph" id="nOfIrrigations" style="width:100%;max-width:600px"></canvas>
+    <canvas class="graph" id="humidity_plot" style="width:100%;max-width:600px"></canvas>
+</div>
 <script src="static/js/plots.js"></script>
+
 </body>
 </html>

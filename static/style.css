@@ -118,6 +118,25 @@ li {
     margin-bottom: 100px;
 }
 
+/* graphs design */
+.graphs {
+    display: flex;
+    justify-content: center;
+}
+
+.graph {
+    margin: 20px;
+}
+
+@media (max-width: 1250px) {
+    .graphs {
+        display: block;
+        padding: 10px;
+    }
+    .graph {
+        margin: 0;
+    }
+}
 
 
 

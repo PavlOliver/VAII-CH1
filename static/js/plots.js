@@ -21,7 +21,7 @@ new Chart("nOfIrrigations", {
 
 const yValues2 = [83,78,70,65,66,64,63,65,70,77,82,83];
 
-new Chart("myChart", {
+new Chart("humidity_plot", {
     type: "line",
     data: {
         labels: xValues,
