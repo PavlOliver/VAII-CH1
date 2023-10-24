@@ -6,7 +6,7 @@ new Chart("nOfIrrigations", {
     data: {
         labels: xValues,
         datasets: [{
-            backgroundColor: 'green', // Set the color to red
+            backgroundColor: 'green',
             data: yValues
         }]
     },
